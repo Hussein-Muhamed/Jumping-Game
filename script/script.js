@@ -9,10 +9,10 @@ var btns = document.getElementsByTagName('input')
 var level = document.getElementById('level')
 var target = document.getElementById('target')
 var btn = document.getElementById('btn')
-var sound = new Audio('./effects/jump.mp3')
-var over = new Audio('./effects/lose.wav')
-var victory = new Audio('./effects/tada.mp3')
-var crowd = new Audio('./effects/crowd.mp3')
+var sound = new Audio('../effects/jump.mp3')
+var over = new Audio('../effects/lose.wav')
+var victory = new Audio('../effects/tada.mp3')
+var crowd = new Audio('../effects/crowd.mp3')
 
 function jump() {
     if (player.classList != "animation") {
