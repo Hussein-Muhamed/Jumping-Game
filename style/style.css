@@ -48,7 +48,7 @@
 }
 
 .animation{
-    animation: jump 0.4s linear;
+    animation: jump 0.8s linear;
 }
 
 @keyframes jump {
@@ -64,7 +64,7 @@ height:200px;
 position: absolute;
 top:610px;
 left:1500px;
-animation: move 0.7s infinite linear;
+animation: move 1s infinite linear;
 }
 
 @keyframes move {

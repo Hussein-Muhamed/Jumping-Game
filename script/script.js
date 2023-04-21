@@ -21,7 +21,7 @@ function jump() {
     }
     setTimeout(function () {
         player.classList.remove('animation')
-    }, 400)
+    }, 800)
 }
 
 function display() {
@@ -52,7 +52,7 @@ function win() {
 
 var userScore = setInterval(function () {
     score.innerHTML = Number(score.innerText) + 1
-    if (score.innerHTML == 5) {
+    if (score.innerHTML == 10) {
         win()
     }
 }, 700)
