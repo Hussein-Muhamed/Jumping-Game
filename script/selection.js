@@ -64,14 +64,56 @@ function difficulty(t){
 function start(){
     if(localStorage.champ == "cat"){
         if(localStorage.difficulty == "easy") {
-            localStorage.setItem("animationOfBlock", "3s")
-            localStorage.setItem("animationOfJump", "1500")
+            localStorage.setItem("animationOfBlock", "1.5s")
+            localStorage.setItem("animationOfJump", "700")
+            location.href = ('../html/player.html')
         }
-        location.href = ('../html/index.html')
+        else if(localStorage.difficulty == "meduim") {
+            localStorage.setItem("animationOfBlock", "0.8s")
+            localStorage.setItem("animationOfJump", "500")
+            location.href = ('../html/player.html')
+        }
+        else if(localStorage.difficulty == "hard") {
+            localStorage.setItem("animationOfBlock", "0.5s")
+            localStorage.setItem("animationOfJump", "350")
+            location.href = ('../html/player.html')
+        }
+    }
+    
+    if(localStorage.champ == "player"){
+        if(localStorage.difficulty == "easy") {
+            localStorage.setItem("animationOfBlock", "1.5s")
+            localStorage.setItem("animationOfJump", "700")
+            location.href = ('../html/player.html')
+        }
+        else if(localStorage.difficulty == "meduim") {
+            localStorage.setItem("animationOfBlock", "0.8s")
+            localStorage.setItem("animationOfJump", "500")
+            location.href = ('../html/player.html')
+        }
+        else if(localStorage.difficulty == "hard") {
+            localStorage.setItem("animationOfBlock", "0.5s")
+            localStorage.setItem("animationOfJump", "350")
+            location.href = ('../html/player.html')
+        }
+    }
+
+    if(localStorage.champ == "astronaut"){
+        if(localStorage.difficulty == "easy") {
+            localStorage.setItem("animationOfBlock", "1.5s")
+            localStorage.setItem("animationOfJump", "700")
+            location.href = ('../html/player.html')
+        }
+        else if(localStorage.difficulty == "meduim") {
+            localStorage.setItem("animationOfBlock", "0.8s")
+            localStorage.setItem("animationOfJump", "500")
+            location.href = ('../html/player.html')
+        }
+        else if(localStorage.difficulty == "hard") {
+            localStorage.setItem("animationOfBlock", "0.5s")
+            localStorage.setItem("animationOfJump", "350")
+            location.href = ('../html/player.html')
+        }
     }
 
 }
-
-
-// ez block 3s jump 1.5s function jump 
-// md block .8 jump .7 jump

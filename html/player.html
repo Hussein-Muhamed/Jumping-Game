@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" onkeypress="jump()">
+<html lang="en" onkeypress="jump(event)">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +10,15 @@
 <body>
     <div class="container">
         <div class="game">
-            <img class="character" src="../imgs/icons/kitty.png">
-            <img class="block" src="../imgs/icons/garbage.png">
+            <img class="bg">
+            <img class="character">
+            <img class="block">
         </div>
         <div id="target">Get Score :50</div>
         <div id="score">Your Score : <span>0</span></div>
         <div class="box">
             <p id="text"></p>
-            <input id="btn" type="button" value="Again" onclick="again()">
+            <input id="btn" type="button" value="Press Enter to play again" onclick="again()">
         </div>
     </div>
 
