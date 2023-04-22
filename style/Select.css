@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    position: relative;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Sigmar-Regular.ttf);
+}
+
+img {
+    position: absolute;;
+    width: 100%;
+    height: 100vh;
+}
+
+#p {
+    position: absolute;
+    color: #cc0e7d;
+    font-family: myFont;
+    font-size: 80px;
+    left:670px;
+    top:80px;
+    text-shadow: 1px 1px 80px rgb(255, 209, 255);
+}
+
+.tickts {
+    position: relative;
+    top:250px;
+    display:flex;
+    justify-content: center;
+    gap:60px
+}
+
+.card {
+    width: 500px;
+    height: 350px;
+    background-color: #eee;
+    opacity: 0.5;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.card.active, .card:hover{
+    background-color: #b32176;
+    opacity: 1;
+    box-shadow: 1px 1px 200px rgb(255, 139, 255);
+    cursor: pointer;
+}
+
+.diff {
+    position: relative;
+    top:320px;
+    display:flex;
+    justify-content: center;
+    gap:20px
+}
+
+.btn {
+    width: 300px;
+    height: 60px;
+    background-color: #eee;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: myFont;
+    opacity: 0.5;
+    color:rgba(0, 0, 0, 0.671)
+}
+
+.btn.active, .btn:hover {
+    position: relative;
+    background-color: #b32176;
+    opacity: 0.9;
+    box-shadow: 1px 1px 200px rgb(255, 139, 255);
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    top: -10px;
+    cursor: pointer;
+
+}
+
+.start {
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    background-color: #eee;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 30px;
+    font-family: myFont;
+    opacity: 0.5;
+    left: 885px;
+    top: 800px;
+    color:rgba(0, 0, 0, 0.671)
+}
+
+.start:hover {
+    background-color: #eee;
+    opacity: 1;
+    width:500px;
+    left: 780px;
+    box-shadow: 1px 1px 200px rgb(255, 139, 255);
+    color: #b32176;
+    font-size: 40px;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+}
+
+.icon {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    margin-left: 100px;
+}

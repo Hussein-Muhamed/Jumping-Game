@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../html/index.html">
+    <link rel="stylesheet" href="../style/Select.css">
+    <title>Character</title>
+</head>
+<body>
+    <div class="container">
+        <img src="../imgs/Home-Page/2.avif">
+        <div id="p">Choose Your Hero</div>
+        <div class="tickts">
+            <div class="card" id="cat" onclick="card(this)"><img class="icon" src="../imgs/icons/laughing.png"></div>
+            <div class="card" id="player" onclick="card(this)"><img class="icon" src="../imgs/icons/player.png"></div>
+            <div class="card" id="astronaut" onclick="card(this)"><img class="icon" src="../imgs/icons/astronaut (3).png"></div>
+        </div>
+        <div class="diff">
+            <div class="btn" id="easy" onclick="difficulty(this)" >Easy</div>
+            <div class="btn" id="meduim" onclick="difficulty(this)">Meduim</div>
+            <div class="btn" id="hard" onclick="difficulty(this)">Hard</div>
+        </div>
+        <input class="start" type="button" value="start" onclick="start()">
+    </div>
+
+    <script src="../script/selection.js"></script>
+</body>
+</html>

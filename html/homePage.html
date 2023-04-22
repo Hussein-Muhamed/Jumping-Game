@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <link rel="stylesheet" href="../style/HomePage.css">
+    <title>HomePage</title>
 </head>
 <body>
-    <img src="../imgs/neon-city.gif">
+   <div class="container">
+       <img id="img" src="../imgs/Home-Page/bg.gif">
+       <p id="head">Jumping Game</p>
+       <input class="btn" type="button" value="PLAY" onclick="goToChamps()">
+   </div>
+   <script>
+        function goToChamps(){
+            location.href = ('../html/Champs.html')
+        }
+   </script>
 </body>
 </html>
