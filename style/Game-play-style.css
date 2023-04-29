@@ -20,7 +20,7 @@
     color:rgb(207, 52, 52);
     font-size: 70px;
     top:45px;
-    left: 1600px;
+    left: 1250px;
 }
 
 .bg {
@@ -34,13 +34,15 @@
     width: 200px;
     height: 250px;
     position: absolute;
-    top:655px;
+    top:555px;
+    left:40px
 }
 
 @keyframes jump {
-    0%{top:660px}
+    0%{top:555px}
     50%{top:300px}
-    100%{top:660px}
+    75%{top:300px}
+    100%{top:555px}
 }
 
 
@@ -48,12 +50,12 @@
 width:200px;
 height:200px;
 position: absolute;
-top: 690px;
-left: 1826px;
+top: 590px;
+left: 1500px;
 }
 
 @keyframes move {
-    0%{left:1826px;transform: rotate(360deg);}
+    0%{left:1500px;transform: rotate(360deg);}
     100%{left:-200px; transform: rotate(0deg);}
 }
 
@@ -83,8 +85,8 @@ left: 1826px;
     height: 300px;
     border-radius: 50px;
     background-color: rgb(154 49 49 / 92%);
-    left: 550px;
-    top: 346px;
+    left: 400px;
+    top: 300px;
     box-shadow: 1px 1px 100px darkgray;
     display: none;
 }

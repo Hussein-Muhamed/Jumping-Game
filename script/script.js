@@ -28,7 +28,7 @@ if(localStorage.getItem("champ") == "cat"){
 else if(localStorage.getItem("champ") == "player"){
     player.src = "../imgs/icons/football-player.png"
     block.src = "../imgs/icons/cone.png"
-    bg.src = "../imgs/game/staduiom.avif"
+    bg.src = "../imgs/game/staduiom.gif"
 }
 
 else if(localStorage.getItem("champ") == "astronaut"){

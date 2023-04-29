@@ -21,7 +21,7 @@
 
 #head {
     position: absolute;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: bold;
     color:rgb(0, 0, 0);
     font-family: myFont;
@@ -46,8 +46,8 @@
     background-color: white;
     color:#000000;
     font-family: myFont;
-    left: 800px;
-    top:550px;
+    left: 660px;
+    top: 457px;
     opacity: 0.4;
 }
 
@@ -56,7 +56,7 @@
     color:white;
     opacity: 1;
     width: 620px;
-    left: 700px;
-    box-shadow: 1px 1px 200px rgb(150, 150, 150);
+    left: 535px;
+    box-shadow: 1px 1px 100px rgb(150, 150, 150);
     cursor: pointer;
 }

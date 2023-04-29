@@ -23,8 +23,8 @@ img {
     color: #cc0e7d;
     font-family: myFont;
     font-size: 80px;
-    left:670px;
-    top:80px;
+    left:470px;
+    top:50px;
     text-shadow: 1px 1px 80px rgb(255, 209, 255);
 }
 
@@ -37,8 +37,8 @@ img {
 }
 
 .card {
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 250px;
     background-color: #eee;
     opacity: 0.5;
     border-radius: 50px;
@@ -48,7 +48,7 @@ img {
 .card.active, .card:hover{
     background-color: #b32176;
     opacity: 1;
-    box-shadow: 1px 1px 200px rgb(255, 139, 255);
+    box-shadow: 1px 1px 100px rgb(255, 139, 255);
     cursor: pointer;
 }
 
@@ -77,13 +77,12 @@ img {
     position: relative;
     background-color: #b32176;
     opacity: 0.9;
-    box-shadow: 1px 1px 200px rgb(255, 139, 255);
+    box-shadow: 1px 1px 100px rgb(255, 139, 255);
     color:white;
     padding-top: 20px;
     padding-bottom: 10px;
     top: -10px;
     cursor: pointer;
-
 }
 
 .start {
@@ -97,8 +96,8 @@ img {
     font-size: 30px;
     font-family: myFont;
     opacity: 0.5;
-    left: 885px;
-    top: 800px;
+    left: 700px;
+    top: 700px;
     color:rgba(0, 0, 0, 0.671)
 }
 
@@ -106,19 +105,18 @@ img {
     background-color: #eee;
     opacity: 1;
     width:500px;
-    left: 780px;
-    box-shadow: 1px 1px 200px rgb(255, 139, 255);
+    left: 590px;
+    box-shadow: 1px 1px 100px rgb(255, 139, 255);
     color: #b32176;
     font-size: 40px;
     cursor: pointer;
     padding-top: 0px;
     padding-bottom: 10px;
-
 }
 
 .icon {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 30px;
     margin-left: 100px;
