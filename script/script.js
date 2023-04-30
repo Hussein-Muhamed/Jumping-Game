@@ -17,7 +17,7 @@ var crowd = new Audio('../effects/crowd.mp3')
 var refe = new Audio('../effects/referee.mp3')
 var space = new Audio('../effects/space.mp3')
 
-var hhhh = new Audio('../effects/hh.mp3')
+level.innerText = localStorage.getItem("difficulty")
 
 if(localStorage.getItem("champ") == "cat"){
     player.src = "../imgs/icons/kitty.png"
@@ -62,7 +62,7 @@ function display() {
 var deadCheck = setInterval(function () {
     var topPlayer = parseInt(window.getComputedStyle(player).getPropertyValue('top'))
     var leftBlock = parseInt(window.getComputedStyle(block).getPropertyValue('left'))
-    if (leftBlock < 100 && leftBlock > -100 && topPlayer >= 450) {
+    if (leftBlock < 100 && leftBlock > -100 && topPlayer >= 400) {
         box.style.display = "block"
         text.innerHTML = `Game Over 💥`
         if(localStorage.getItem('champ') == "cat"){
@@ -76,7 +76,7 @@ var deadCheck = setInterval(function () {
         }
         display()
     }
-}, 10)
+}, 5)
 
 function win() {
     box.style.display = "block"
@@ -91,15 +91,11 @@ function clap(){
 
 var userScore = setInterval(function () {
     score.innerHTML = Number(score.innerText) + 1
-    for(let i = 10 ; i<50 ; i= i+ 10){
-        if (score.innerHTML == i) {
-            clap()
-        }
-    }
-    if(score.innerHTML == 50){
+        if(score.innerHTML == 10){
+        clap()
         win()
     }
-}, 400)
+}, 800)
 
 function again() {
     location.reload()
